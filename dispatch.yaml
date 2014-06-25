@@ -1,0 +1,8 @@
+application: gopheroteca
+
+dispatch:
+  - url: "*/api/*"
+    module: backend
+
+  - url: "*/*"
+    module: default

@@ -1,0 +1,13 @@
+application: gopheroteca
+module: default
+version: 1
+api_version: 1
+runtime: python27
+threadsafe: yes
+
+handlers:
+  - url: /static/
+    static_dir: .
+  - url: /
+    static_files: index.html
+    upload: index.html
